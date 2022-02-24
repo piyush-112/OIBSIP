@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+body{
+  background: #EEF2FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.container{
+  width: 500px;
+  height: 450px;
+  display: flex;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 2px 2px 40px 1px #BDBDD7;
+  text-align: center;
+
+}
+
+input:focus,select:focus{
+  outline: none;
+}
+
+
+.user-input{
+  width: 170px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid silver;
+}
+span{
+  width: 35px;
+  margin: 25px;
+}
+select{
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid silver;
+}
+.input-data{
+  margin: 50PX;
+  width: 400px;
+  display: flex;
+
+}
+
+
+
+
+.result input{
+  font-size: 20px;
+  height: 50px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid silver
+}
+
+
+button{
+  width: 400px;
+  height: 50px;
+  border: none;
+  background: #1C6DD0;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+button:hover{
+  background: darkblue;
+  transition: 0.2s ease-in;
+}
+
+.content{
+  margin-top:50px;
+
+}
+
+.middle-text{
+  font-size: 20px;
+}
